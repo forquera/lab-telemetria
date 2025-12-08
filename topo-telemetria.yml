@@ -11,7 +11,7 @@ topology:
       kind: cisco_iol
       image: docker.io/arthurk99/cisco-iol:17.15.01 
       startup-config: config/core/config.partial
-      
+      enforce-startup-config: true
         
     srlswitch:
       kind: nokia_srlinux
